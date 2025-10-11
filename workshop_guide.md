@@ -569,7 +569,6 @@ Create `docker-compose.yml`:
 - Visual Studio Code with YAML extension is recommended
 
 ```yaml
-version: '3.8'
 services:
   web:
     image: nginx:alpine
@@ -578,7 +577,6 @@ services:
 ```
 
 **What this does:**
-- `version: '3.8'`: Specifies Docker Compose file format version
 - `services:`: Defines the containers to be created
 - `web:`: Name of our service
 - `image: nginx:alpine`: Uses the nginx alpine image
@@ -631,7 +629,6 @@ docker-compose down
 
 Update `docker-compose.yml`:
 ```yaml
-version: '3.8'
 services:
   web:
     image: nginx:alpine
@@ -666,7 +663,6 @@ services:
 
 Create enhanced `docker-compose.yml`:
 ```yaml
-version: '3.8'
 services:
   web:
     image: nginx:alpine
@@ -940,8 +936,6 @@ docker push YOUR-USERNAME/my-custom-app:latest
 
 **Skip this step if you prefer to continue with local development only.**
 
-**Skip this step if you prefer to continue with local development only.**
-
 
 
 
@@ -1077,6 +1071,7 @@ docker network rm my-network 2>/dev/null || true
 
 # Clean up unused resources
 docker system prune -f
+```
 
 # Remove any remaining workshop files:
 
