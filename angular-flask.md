@@ -831,7 +831,7 @@ networks:
 
 
 
-## Step 6: Create Nginx Reverse Proxy Configuration
+## Step 5: Create Nginx Reverse Proxy Configuration
 
 **For Mac/Linux:**
 ```bash
@@ -1017,6 +1017,47 @@ Test reverse proxy:
 curl http://localhost:8080/api/health
 ```
 
+---
+
+## Step 9: 🔧 Debugging and Logs
+*Learn to troubleshoot the full-stack application*
+
+Check service logs:
+```bash
+# View all service logs
+docker-compose logs
+
+# View specific service logs
+docker-compose logs backend
+docker-compose logs frontend
+docker-compose logs nginx
+
+# Follow logs in real-time
+docker-compose logs -f backend
+```
+
+Inspect running containers:
+```bash
+# List running containers
+docker-compose ps
+
+# Check container health
+docker-compose exec backend ps aux
+docker-compose exec frontend ps aux
+```
+
+Debug database issues:
+```bash
+# Access database directly
+docker-compose exec backend sqlite3 /data/app.db
+
+# Check database file permissions
+docker-compose exec backend ls -la /data/
+```
+
+---
+
+## Step 10: Application Monitoring
 
 
 
@@ -1027,7 +1068,8 @@ curl http://localhost:8080/api/health
 
 
 
-## Step 9: Application Monitoring
+
+## Step 10: Application Monitoring
 
 Create monitoring docker-compose:
 

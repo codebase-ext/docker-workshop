@@ -359,7 +359,7 @@ body {
 }
 ```
 
-## Step 7: Create Angular Components
+## Step 8: Create Angular Module
 
 Create `src/app/app.module.ts`:
 ```typescript
@@ -597,7 +597,7 @@ export class HomeComponent implements OnInit {
 
 
 
-## Step 8: Create API Service
+## Step 9: Create API Service
 
 **For Mac/Linux:**
 ```bash
@@ -653,7 +653,7 @@ export class ApiService {
 
 
 
-## Step 9: Create Favicon and Assets
+## Step 10: Create Favicon and Assets
 
 **For Mac/Linux:**
 ```bash
@@ -715,7 +715,7 @@ EOF
 
 
 
-## Step 10: 🐳 Create Multi-Stage Dockerfile
+## Step 11: 🐳 Create Multi-Stage Dockerfile
 *Build an optimized production image using multi-stage Docker build*
 
 Create `Dockerfile`:
@@ -769,7 +769,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 
-## Step 11: Create Nginx Configuration
+## Step 12: Create Nginx Configuration
 
 Create `nginx.conf`:
 ```nginx
@@ -826,7 +826,7 @@ http {
 
 
 
-## Step 12: 🔨 Build Docker Image
+## Step 13: 🔨 Build Docker Image
 *Compile the multi-stage Dockerfile into an optimized image*
 
 ```bash
@@ -848,7 +848,7 @@ docker images | grep angular-docker-app
 
 
 
-## Step 13: 🚀 Run Angular Container
+## Step 14: 🚀 Run Angular Container
 *Launch the Angular application with Nginx web server*
 
 ```bash
@@ -870,7 +870,7 @@ docker ps
 
 
 
-## Step 14: 🧪 Test the Application
+## Step 15: 🧪 Test the Application
 *Verify the Angular application is working correctly*
 
 Open browser to `http://localhost:8080`
@@ -890,7 +890,7 @@ curl http://localhost:8080
 
 
 
-## Step 15: Check Container Logs
+## Step 16: Check Container Logs
 
 ```bash
 docker logs angular-app
@@ -906,7 +906,7 @@ docker logs angular-app
 
 
 
-## Step 16: Create Docker Compose
+## Step 17: Create Docker Compose
 
 Create `docker-compose.yml`:
 ```yaml
@@ -942,7 +942,7 @@ services:
 
 
 
-## Step 17: Development with Docker Compose
+## Step 18: Development with Docker Compose
 
 Create `docker-compose.dev.yml`:
 ```yaml
@@ -989,7 +989,7 @@ docker compose -f docker-compose.dev.yml up
 
 
 
-## Step 18: Optimize Docker Image
+## Step 19: Optimize Docker Image
 
 Create `.dockerignore`:
 ```
@@ -1025,7 +1025,7 @@ docker images | grep angular-docker-app
 
 
 
-## Step 19: Health Check
+## Step 20: Health Check
 
 Add health check to Dockerfile:
 ```dockerfile
@@ -1055,7 +1055,7 @@ docker ps
 
 
 
-## Step 20: Cleanup
+## Step 21: Cleanup
 
 Stop and remove containers:
 ```bash

@@ -3,11 +3,11 @@
 ## 📋 Workshop Overview
 **Duration:** 2 Hours Hands-On Session  
 **Prerequisites:** Docker Desktop installed on your machine  
-**Goal:** Zero to Expert Docker Knowledge
+**Goal:** Zero to "Ya, I know Docker - It's simple...Let me show you" Knowledge
 
 ---
 
-## � Prerequisites & Docker Installation
+## 📋 Prerequisites & Docker Installation
 
 ### 🔧 System Requirements
 - **Operating System:** Windows 10/11, macOS 10.15+, or Linux (Ubuntu 18.04+, CentOS 7+)
@@ -163,7 +163,7 @@ This comprehensive guide covers:
 
 ---
 
-## �🚀 Part 1: Environment Setup & Verification (15 minutes)
+## 🚀 Part 1: Environment Setup & Verification (15 minutes)
 
 ### Step 1: 🔍 Verify Docker Installation
 *Confirm Docker is properly installed and running on your system*
@@ -1092,7 +1092,7 @@ del my-app.tar
 
 ---
 
-## � Troubleshooting Common Issues
+## 🔧 Troubleshooting Common Issues
 
 ### **Problem: "docker: command not found"**
 **Solution:** 
@@ -1139,7 +1139,7 @@ del my-app.tar
 
 ---
 
-## �🚀 Next Steps
+## 🚀 Next Steps
 
 1. 🌐 **Complete the Docker Hub Guide** ([docker-hub.md](docker-hub.md)) to learn image sharing
 2. 🐝 **Learn about Docker Swarm** for orchestration
