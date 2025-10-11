@@ -112,10 +112,12 @@ docker info
 
 **Expected Output:**
 ```
-Docker version 24.x.x, build xxxxxxx
+Docker version 28.x.x, build xxxxxxx
 Docker Compose version v2.x.x
 Hello from Docker! (from hello-world test)
 ```
+
+**💡 Version Note:** This workshop is designed for Docker 28.x.x (the latest version as of October 2025). Most features will work with Docker 20.x.x or newer, but some advanced features may require the latest version.
 
 ### 🚨 Troubleshooting Installation Issues
 
@@ -186,7 +188,7 @@ docker --version
 
 Expected output format:
 ```
-Docker version 24.x.x, build xxxxxxx
+Docker version 28.x.x, build xxxxxxx
 ```
 
 **If you get an error:**
