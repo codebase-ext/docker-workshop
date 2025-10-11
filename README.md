@@ -1,4 +1,4 @@
-# 🐳 Docker Workshop 
+# 🐳 Docker Workshop - Amrita Bengaluru 11 Oct 2025
 
 ## � Quick Navigation
 **📚 Workshop Files:**
