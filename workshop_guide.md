@@ -1137,13 +1137,14 @@ del my-app.tar
 ## 🚀 Next Steps
 
 1. 🌐 **Complete the Docker Hub Guide** ([docker-hub.md](docker-hub.md)) to learn image sharing
-2. 🐝 **Learn about Docker Swarm** for orchestration
-3. ☸️ **Investigate Kubernetes** for production deployments
-4. 💻 **Practice with more complex applications**
-5. 🔄 **Implement CI/CD pipelines** with Docker
-6. 🏢 **Set up private registries** for enterprise use
-7. 🛡️ **Learn Docker security** best practices
-8. 📊 **Monitor containerized applications** with tools like Prometheus and Grafana
+2. � **Use the Command Reference** ([command-reference.md](command-reference.md)) for quick CLI lookups
+3. �🐝 **Learn about Docker Swarm** for orchestration
+4. ☸️ **Investigate Kubernetes** for production deployments
+5. 💻 **Practice with more complex applications**
+6. 🔄 **Implement CI/CD pipelines** with Docker
+7. 🏢 **Set up private registries** for enterprise use
+8. 🛡️ **Learn Docker security** best practices
+9. 📊 **Monitor containerized applications** with tools like Prometheus and Grafana
 
 ---
 

@@ -1,4 +1,11 @@
-# 🐳 Docker Workshop - Amrita Bengaluru 11 Oct 2025
+# ## � Quick Navigation
+**📚 Workshop Files:**
+- 📖 [`workshop_guide.md`](workshop_guide.md) - Main foundation guide (start here!)
+- 🐍 [`flask.md`](flask.md) - Backend Python application tutorial
+- 🅰️ [`angular.md`](angular.md) - Frontend Angular application tutorial
+- 🚀 [`angular-flask.md`](angular-flask.md) - Full-stack integration example
+- 🌐 [`docker-hub.md`](docker-hub.md) - Docker Hub publishing guide
+- 📋 [`command-reference.md`](command-reference.md) - Docker CLI commands cheatsheeter Workshop - Amrita Bengaluru 11 Oct 2025
 
 ## � Quick Navigation
 **📚 Workshop Files:**
@@ -137,6 +144,7 @@ Perfect for: Experienced developers who need Docker basics quickly
 docker-workshop/
 ├── README.md                 # This file - start here!
 ├── workshop_guide.md         # Main foundation guide
+├── command-reference.md      # Docker CLI commands cheatsheet
 ├── flask.md                  # Backend Python application
 ├── angular.md                # Frontend Angular application  
 ├── angular-flask.md          # Full-stack integration
