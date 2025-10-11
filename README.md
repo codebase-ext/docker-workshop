@@ -1,8 +1,16 @@
-# 🐳 Docker Workshop - Complete Learning Path
+# 🐳 Docker Workshop 
 
-Welcome to the comprehensive Docker & Containers Workshop! This repository contains everything you need to learn Docker from beginner to advanced level through hands-on practical exercises.
+## � Quick Navigation
+**📚 Workshop Files:**
+- 📖 [`workshop_guide.md`](workshop_guide.md) - Main foundation guide (start here!)
+- 🐍 [`flask.md`](flask.md) - Backend Python application tutorial
+- 🅰️ [`angular.md`](angular.md) - Frontend Angular application tutorial
+- 🚀 [`angular-flask.md`](angular-flask.md) - Full-stack integration example
+- 🌐 [`docker-hub.md`](docker-hub.md) - Docker Hub publishing guide
 
-## 📚 Workshop Structure
+---
+
+## �📚 Workshop Structure
 
 This workshop is organized into multiple interconnected guides that build upon each other. Each `.md` file focuses on specific aspects of Docker development, from basic concepts to real-world applications.
 
@@ -16,7 +24,7 @@ Follow this **exact order** for the optimal learning experience:
 Start here regardless of your experience level.
 
 #### **1. 📖 Main Workshop Guide** 
-**File:** `workshop_guide.md`  
+**File:** [`workshop_guide.md`](workshop_guide.md)  
 **Duration:** ~2 hours  
 **Prerequisites:** None  
 
@@ -36,7 +44,7 @@ Start here regardless of your experience level.
 After completing the main guide, choose one or more application examples based on your interests:
 
 #### **2a. 🐍 Flask Backend Application** 
-**File:** `flask.md`  
+**File:** [`flask.md`](flask.md)  
 **Duration:** ~45 minutes  
 **Prerequisites:** Phase 1 completed  
 
@@ -50,7 +58,7 @@ After completing the main guide, choose one or more application examples based o
 **Choose this if:** You're interested in backend development, Python, or APIs.
 
 #### **2b. 🅰️ Angular Frontend Application**
-**File:** `angular.md`  
+**File:** [`angular.md`](angular.md)  
 **Duration:** ~60 minutes  
 **Prerequisites:** Phase 1 completed  
 
@@ -64,7 +72,7 @@ After completing the main guide, choose one or more application examples based o
 **Choose this if:** You're interested in frontend development, Angular, or web applications.
 
 #### **2c. 🚀 Full-Stack Integration** 
-**File:** `angular-flask.md`  
+**File:** [`angular-flask.md`](angular-flask.md)  
 **Duration:** ~75 minutes  
 **Prerequisites:** Phase 1 + BOTH Flask AND Angular examples  
 
@@ -84,7 +92,7 @@ After completing the main guide, choose one or more application examples based o
 ### **Phase 3: Professional Development (Optional but Recommended)**
 
 #### **3. 🌐 Docker Hub & Image Sharing**
-**File:** `docker-hub.md`  
+**File:** [`docker-hub.md`](docker-hub.md)  
 **Duration:** ~30 minutes  
 **Prerequisites:** At least one application example from Phase 2  
 
@@ -103,27 +111,22 @@ After completing the main guide, choose one or more application examples based o
 ## 🛣️ Recommended Learning Paths
 
 ### **🎓 Beginner Path (3-4 hours total)**
-```
-workshop_guide.md → flask.md → docker-hub.md
-```
+[`workshop_guide.md`](workshop_guide.md) → [`flask.md`](flask.md) → [`docker-hub.md`](docker-hub.md)
+
 Perfect for: Complete Docker beginners, backend developers
 
 ### **🎨 Frontend Developer Path (3.5-4 hours total)**
-```
-workshop_guide.md → angular.md → docker-hub.md
-```
+[`workshop_guide.md`](workshop_guide.md) → [`angular.md`](angular.md) → [`docker-hub.md`](docker-hub.md)
+
 Perfect for: Frontend developers, UI/UX professionals
 
 ### **🚀 Full-Stack Developer Path (5-6 hours total)**
-```
-workshop_guide.md → flask.md → angular.md → angular-flask.md → docker-hub.md
-```
+[`workshop_guide.md`](workshop_guide.md) → [`flask.md`](flask.md) → [`angular.md`](angular.md) → [`angular-flask.md`](angular-flask.md) → [`docker-hub.md`](docker-hub.md)
+
 Perfect for: Full-stack developers, DevOps engineers, team leads
 
 ### **⚡ Quick Start Path (2.5 hours total)**
-```
-workshop_guide.md → flask.md (skip optional sections)
-```
+[`workshop_guide.md`](workshop_guide.md) → [`flask.md`](flask.md) (skip optional sections)
 Perfect for: Experienced developers who need Docker basics quickly
 
 ---
@@ -161,7 +164,7 @@ cd docker-workshop
 ```
 
 ### **Step 3: Start Learning**
-1. Open `workshop_guide.md` in your favorite text editor
+1. Open [`workshop_guide.md`](workshop_guide.md) in your favorite text editor
 2. Follow the instructions step by step
 3. Use the `workshop/` directory for all hands-on exercises
 4. Complete each section before moving to the next file
@@ -233,7 +236,7 @@ By completing this workshop, you will:
 - **Space issues:** Clean up Docker resources: `docker system prune -a`
 
 ### **Getting Help:**
-- Check the troubleshooting section in `workshop_guide.md`
+- Check the troubleshooting section in [`workshop_guide.md`](workshop_guide.md)
 - Verify your Docker installation: `docker --version`
 - Ensure internet connectivity for image downloads
 - Review the specific guide's troubleshooting tips
@@ -273,4 +276,4 @@ This workshop is designed to be comprehensive yet approachable. Each guide inclu
 
 ---
 
-**Ready to start? Open `workshop_guide.md` and begin your Docker journey! 🚀**
+**Ready to start? Open [`workshop_guide.md`](workshop_guide.md) and begin your Docker journey! 🚀**
